@@ -1,7 +1,7 @@
 {
   "name": "similarity-matrix",
   "version": "0.1.0",
-  "description": "Calculates the similarity of 2 string matrixes and sorts the seconds one by similarity to first",
+  "description": "Calculates the similarity of 2 string arrays and sorts the seconds one by similarity to first",
   "main": "index.js",
   "dependencies": {
     "fast-levenshtein": "^2.0.5",

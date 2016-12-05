@@ -1,5 +1,5 @@
 # similarity-matrix
-Calculates the similarity of 2 string matrixes and sorts the seconds one by similarity to first
+Calculates the similarity of 2 string arrays and sorts the seconds one by similarity to first
 
 The similarity is calculated with levenshtein.
 
