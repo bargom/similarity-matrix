@@ -10,9 +10,11 @@ The similarity is calculated with levenshtein.
 You can think this as a list you retrieved coming from a master database, and a list coming from another database, that you want to present.
 
 The correct presentation should be:
+```
 abc     
 ab1     
 ab2     ab2
+```
 
 as this solver will return ['', '', 'ab2']
 
