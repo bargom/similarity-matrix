@@ -22,8 +22,8 @@ as this solver will return ['', '', 'ab2']
 const SimilarityMatrix = require('../lib');
 var solved = SimilarityMatrix.calculateNewIndex(['abc', 'ab1', 'ab2'], ['ab2']);
 
-console.log(solved.resultIndexes, [2]);
-console.log(solved.resultArray, ['', '', 'ab2']);
+console.log(solved.resultIndexes); // => [2]
+console.log(solved.resultArray); // =>  ['', '', 'ab2']
 
 ```
 
