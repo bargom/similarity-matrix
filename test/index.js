@@ -15,7 +15,7 @@ describe('SimilarityMatrix operations', () => {
       c = SimilarityMatrix.calculateNewIndex(['abc', 'ab1', 'ab2'], []);
       d = SimilarityMatrix.calculateNewIndex(['abc', 'ab1', 'ab2'], ['abc', 'ab1', 'ab2']);
     });
-    it('should return correct a', () => {
+    it('should return correct values', () => {
       assert.deepEqual(a.resultIndexes, [2]);
       assert.deepEqual(a.resultArray, ['', '', 'ab2']);
       assert.deepEqual(b.resultIndexes, [2, 0, 1]);
