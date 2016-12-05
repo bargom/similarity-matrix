@@ -15,7 +15,6 @@ abc
 ab1     
 ab2     ab2
 ```
-
 as this solver will return ['', '', 'ab2']
 
 ##How to use
@@ -28,4 +27,6 @@ console.log(solved.resultIndexes); // => [2]
 console.log(solved.resultArray); // =>  ['', '', 'ab2']
 
 ```
-
+The calculation returns an object with 2 arrays. 
+- *resultIndexes:* The new indexes of each element. In the example is returned `[2]`, meaning that the first element in the second array has a new index of `2`
+- *resultArray:* An array which is already calculated as the modified version of the second array.
