@@ -3,9 +3,9 @@ Calculates the similarity of 2 string arrays and sorts the seconds one by simila
 
 The similarity is calculated with levenshtein.
 
-##Example
-- Input Matrix ["abc", "ab1", "ab2"]
-- Matrix to compare ["ab2"]
+##Example 1
+- Input Array ["abc", "ab1", "ab2"]
+- Array to compare ["ab2"]
 
 You can think this as a list you retrieved coming from a master database, and a list coming from another database, that you want to present.
 
@@ -16,6 +16,20 @@ ab1
 ab2     ab2
 ```
 as this solver will return ['', '', 'ab2']
+
+##Example 2
+- Input Array ["abc", "ab1", "ab2"]
+- Array to compare ["ab5", "xb1", "xy2"]
+
+This one is harder to sort manually. There are multiple solutions, but the solver will find the best matching sorting.
+
+The correct presentation should be:
+```
+abc     ab5    -> similarity = 2
+ab1     xb1    -> similarity = 2   
+ab2     xy2    -> similarity = 1
+```
+as this solver will return ['ab5', 'xb1', 'xy2']
 
 ##How to use
 
