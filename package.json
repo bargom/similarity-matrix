@@ -1,6 +1,6 @@
 {
   "name": "similarity-matrix",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Calculates the similarity of 2 string arrays and sorts the seconds one by similarity to first",
   "main": "lib/index.js",
   "dependencies": {
