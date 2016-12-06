@@ -20,5 +20,9 @@
     "name": "Baris Gomleksizoglu",
     "email": "baris.gomlek@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": { 
+    "type": "git",
+    "url": "bargom/similarity-matrix"
+  }
 }
