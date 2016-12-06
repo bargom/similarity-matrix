@@ -24,5 +24,23 @@
   "repository": {
     "type": "git",
     "url": "bargom/similarity-matrix"
-  }
+  },
+  "keywords": [
+    "leven",
+    "levenshtein",
+    "distance",
+    "algorithm",
+    "sort",
+    "string",
+    "difference",
+    "diff",
+    "array",
+    "similar",
+    "similarity",
+    "compare",
+    "comparison",
+    "match",
+    "matching",
+    "matrix"
+  ]
 }
