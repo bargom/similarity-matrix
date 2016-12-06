@@ -20,7 +20,7 @@ as this solver will return ['', '', 'ab2']
 ##How to use
 
 ```javascript
-const SimilarityMatrix = require('../lib');
+const SimilarityMatrix = require('similarity-matrix');
 var solved = SimilarityMatrix.calculateNewIndex(['abc', 'ab1', 'ab2'], ['ab2']);
 
 console.log(solved.resultIndexes); // => [2]
