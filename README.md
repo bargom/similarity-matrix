@@ -3,7 +3,7 @@ Calculates the similarity of 2 string arrays and sorts the seconds one by simila
 
 The similarity is calculated with levenshtein.
 
-##Example 1
+## Example 1
 - Input Array ['abc', 'ab1', 'ab2']
 - Array to compare ['ab2']
 
@@ -17,7 +17,7 @@ ab2     ab2
 ```
 as this solver will return `{resultArray: ['', '', 'ab2'], resultIndexes: [2]}`
 
-##Example 2
+## Example 2
 - Input Array ['abc', 'ab1', 'ab2']
 - Array to compare ['xy2', 'ab5', 'xb1']
 
@@ -31,7 +31,7 @@ ab2     xy2    -> similarity = 1
 ```
 as this solver will return `{resultArray: ['ab5', 'xb1', 'xy2'], resultIndexes: [2, 0, 1]}`
 
-##How to use
+## How to use
 
 ```javascript
 const SimilarityMatrix = require('similarity-matrix');
